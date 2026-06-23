@@ -28,7 +28,7 @@ export const TYPING_ROLES = [
 export const STATS = [
   { label: "Major Projects", value: 3, suffix: "+" },
   { label: "Coding Problems Solved", value: 100, suffix: "+" },
-  { label: "Internship", value: 1, suffix: "" },
+  { label: "Internship", value: 2, suffix: "" },
   { label: "Certificates", value: 2, suffix: "" },
   { label: "Leadership Roles", value: 2, suffix: "" },
 ];
