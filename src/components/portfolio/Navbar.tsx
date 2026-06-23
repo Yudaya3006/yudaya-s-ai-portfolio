@@ -38,7 +38,7 @@ export function Navbar() {
         >
           <a href="#home" className="flex items-center gap-2 font-display text-sm font-semibold">
             <span className="inline-block h-2.5 w-2.5 rounded-full bg-gradient-to-br from-[var(--brand)] to-[var(--brand-2)] shadow-glow" />
-            <span className="text-gradient">Yudaya M.</span>
+            <span className="text-gradient">Yudaya Madhavi</span>
           </a>
           <ul className="hidden items-center gap-1 md:flex">
             {links.map((l) => (

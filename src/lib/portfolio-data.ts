@@ -1,3 +1,4 @@
+import pulseImg from "@/assets/project-pulse.png";
 import fitnessImg from "@/assets/project-fitness.jpg";
 import churnImg from "@/assets/project-churn.jpg";
 import agentsImg from "@/assets/project-agents.jpg";
@@ -14,7 +15,7 @@ export const PROFILE = {
   linkedinLabel: "Chelluri Yudayamadhavi",
   github: "https://github.com/Yudaya3006",
   githubLabel: "Yudaya3006",
-  resumeUrl: "https://drive.google.com/file/d/1-KUe6s6tDQ_bIxOkInFAxKqmQFQazapu/view?usp=drivesdk",
+  resumeUrl: "https://drive.google.com/file/d/1FSqif4gX6upBgGCJz_zfdMWEwf3lXz22/view?usp=drivesdk",
 };
 
 export const TYPING_ROLES = [
@@ -25,7 +26,7 @@ export const TYPING_ROLES = [
 ];
 
 export const STATS = [
-  { label: "Major Projects", value: 2, suffix: "+" },
+  { label: "Major Projects", value: 3, suffix: "+" },
   { label: "Coding Problems Solved", value: 100, suffix: "+" },
   { label: "Internship", value: 1, suffix: "" },
   { label: "Certificates", value: 2, suffix: "" },
@@ -68,6 +69,27 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Pulse Monitor",
+    image: pulseImg,
+    description:
+    "Production-ready uptime monitoring platform that continuously tracks website health, response latency, and availability through a real-time monitoring dashboard.",
+    bullets: [
+    "Monitors registered URLs every 60 seconds",
+    "Tracks latency, uptime, and health status",
+    "Real-time dashboard with glassmorphism UI",
+    "Built using FastAPI, PostgreSQL, Docker, and Nginx",
+    ],
+    tech: [
+    "React",
+    "Vite",
+    "FastAPI",
+    "PostgreSQL",
+    "Docker",
+    "Nginx"
+  ],
+    github: "https://github.com/Yudaya3006/PulseMonitor",
+  },
   {
     title: "Health Fitness App",
     image: fitnessImg,
